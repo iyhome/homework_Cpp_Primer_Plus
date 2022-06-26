@@ -35,3 +35,21 @@ void two_2_3() {
 int yearTomonth(int nyear){
 	return nyear * 12;
 }
+
+/* 2.5:编写一个程序，其中的main()调用一个用户定义的函数（以摄氏温度值为参数，并返回相应的华氏温度值）。该程序按下面的格式要求用户输入摄氏温度值，并显示结果：
+*	Please enter a celsius value:20
+*	20 degree Celesius is 68 degrees Fatrenheit.
+*	下面是转换公式：	华氏温度=1.8*摄氏温度+32.0
+*/
+double cTof(double nc){
+	return 1.8 * nc + 32.0;
+}
+
+/* 2.6:编写一个程序，其中的main()调用一个用户定义的函数（以光年值为参数，并返回对应天文单位的值）。该程序按下面的格式要求用户输入光年值，并显示结果：
+*	Enter the number of light years: 4.2
+*	4.2 light years = 265608 astronmical units.
+*	请使用double类型，转换公式为：1光年=63240天文单位
+*/
+double lightYear(double nLY){
+	return nLY * 63240;
+}

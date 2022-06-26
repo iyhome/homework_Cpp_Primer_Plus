@@ -6,5 +6,7 @@ int long_to_ma(int);
 void one_2_3(void);
 void two_2_3(void);
 int yearTomonth(int);
+double cTof(double);
+double lightYear(double);
 
 #endif
