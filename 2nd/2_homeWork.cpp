@@ -10,7 +10,7 @@ void showName() {
 
 //2.2：编写一个程序，他要求用户输入一个以long为单位的距离，然后将他转换为码（1 long 等于200码）。
 int long_to_ma(int num) {
-	return (num * 200);
+	return (num * 220);
 }
 
 /*2.3:编写一个C++程序，它使用3个用户定义的函数（包括main()）,并生成下面的输出。
@@ -52,4 +52,13 @@ double cTof(double nc){
 */
 double lightYear(double nLY){
 	return nLY * 63240;
+}
+
+/*	编写一个程序，要求用户输入小时数和分钟数。在main()函数中，将这两个值传递给一个void函数，后者以下面这样的格式显示这两个值：
+*	Enter the number of hours: 9
+*	Enter the number of minutes: 28
+*	Time:9:28
+*/
+void time(int n1, int n2){
+	std::cout << "Time: " << n1 << ":" << n2 << std::endl;
 }

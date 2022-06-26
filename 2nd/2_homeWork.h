@@ -8,5 +8,6 @@ void two_2_3(void);
 int yearTomonth(int);
 double cTof(double);
 double lightYear(double);
+void time(int, int);
 
 #endif
