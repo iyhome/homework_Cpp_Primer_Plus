@@ -5,5 +5,6 @@ void showName(void);
 int long_to_ma(int);
 void one_2_3(void);
 void two_2_3(void);
+int yearTomonth(int);
 
 #endif
